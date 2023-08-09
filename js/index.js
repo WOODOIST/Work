@@ -38,3 +38,9 @@ function clearLastBlock(){
   console.log("Children elements count: ", divContainer.children.length);
 }
 
+function changeImage(fileName){
+  let image = document.querySelector("#imgBtn");
+  image.setAttribute('src', fileName);
+
+  
+}

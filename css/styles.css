@@ -23,6 +23,23 @@ header {
   border-bottom: 2px solid var(--clr-gray-light);
 }
 
+
+
+
+.btn-change-view{
+  width: 125px;
+  height: 125px;
+  background-color: #7cb5d2;
+  border: #2b7e91;
+  cursor: pointer;
+  border-radius: 0.2em;
+  outline: none;
+  transition: all 100 ms ease-in;
+  user-select: none;
+  align-items: flex-end;
+  margin: 10px;
+}
+
 .btn-add {
   width: 6em;
   height: 2em;
@@ -65,6 +82,11 @@ header {
 .btn-delete:active,
 .btn-delete:hover{
   background-color: #7a2525;
+}
+
+.btn-change-view:active,
+.btn-change-view:hover{
+  background-color: rgb(87, 146, 155);
 }
 
 main {
