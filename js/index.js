@@ -38,9 +38,14 @@ function clearLastBlock(){
   console.log("Children elements count: ", divContainer.children.length);
 }
 
-function changeImage(fileName){
+function changeImage(){
   let image = document.querySelector("#imgBtn");
-  image.setAttribute('src', fileName);
-
   
+
+  if (image.getAttribute('src') =='resources/tiles.png'){
+    image.setAttribute('src', 'resources/table.png');
+  }
+  else{
+    image.setAttribute('src', 'resources/tiles.png');
+  }
 }
